@@ -2,40 +2,41 @@ ul{
     list-style: none;
 }
 .container {
-    width: 1200px;
+    width: 75rem;
     margin: 0 auto;
     
     }
 
 .nav-list ul{
     display: flex;
-    gap: 20px;
+    gap: 1.26rem;  
     margin:  0 auto;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 1.875rem;   
     background-color: rgb(231, 243, 248);
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    padding: 50px;
-    margin-top:20px;
+    font-size: .875rem;
+    padding: 3.125rem;
+    margin-top:1.25rem;
     }
 
 .child{   
-    height:300px;
-    width: 300px;
-    border-radius: 4px;
+    height:18.75rem;
+    width: 18.75rem;
+    border-radius: .25rem;
     background: rgb(117, 192, 206);
-    margin-top: 5px;
+  
+
   }
 
-.container-main{   
+
+
+.container-main{  
     display: flex;
-    flex-direction:row;
-    padding: 20px;
-    gap: 10px;
-    align-items: center;
+    gap: 1rem; 
+    flex-direction: column;
 }
 
 .footer-list{
@@ -47,14 +48,18 @@ ul{
     align-items: center;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: .875rem;
     }
 
 .container-footer{   
     display: flex;
     flex-direction:column;
-    padding: 20px;
-    gap: 10px;
+    padding: 1.25rem;
+    gap: .625rem;
     align-items: left;
     color: azure;
 }   
+
+.img-main{
+    width:100%;
+}
