@@ -9,7 +9,7 @@ ul{
 
 .nav-list ul{
     display: flex;
-    gap: 1.25rem;  
+    gap: 1.26rem;  
     margin:  0 auto;
     justify-content: space-between;
     align-items: center;
